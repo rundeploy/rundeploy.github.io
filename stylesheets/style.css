@@ -1,0 +1,173 @@
+body {
+
+margin: 1px;
+padding: 1px;
+background: url('../img/t.png') repeat;
+font-family:monospace;
+
+}
+
+
+
+
+.skull {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin: -95px 0 0 500px;
+  background: url('../img/kernelcrown.png') no-repeat;
+  width: 400px;
+  height: 400px;
+
+}
+
+
+.skull {
+  -webkit-animation-name: 'down';
+  -webkit-animation-duration: 2.5s;
+}
+
+@-webkit-keyframes 'down' {
+  from {
+    -webkit-transform: rotateY(90deg);
+  }
+
+  40% {
+    -webkit-transform: rotateY(90deg);
+  }
+
+  to {
+    -webkit-transform: rotateY(0deg);
+  }
+}
+
+/*@-webkit-keyframes rotate-skull {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+    25% {
+        -webkit-transform: rotate(15deg)
+    }
+    50% {
+        -webkit-transform: rotate(-5deg)
+    }
+    55% {
+        -webkit-transform: rotate(0deg)
+    }
+    75% {
+        -webkit-transform: rotate(-10deg)
+    }
+    100% {
+        -webkit-transform: rotate(0deg)
+    }
+} 
+
+.skull 
+{
+    -webkit-animation-name: rotate-skull;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-iteration-count: infinite;       
+}*/
+
+
+
+
+.me {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 400px;
+  margin-right: -120px;
+  text-shadow: 0 1px 0 white;
+  color: #243B43;
+
+}
+
+.fct_link {
+  color: #C00;
+  text-shadow: none;
+  text-decoration:none;
+}
+
+.fct_link:hover {
+  color: red;
+
+}
+
+h1 {
+
+  font-size: 20px;
+  margin-bottom: 7px;
+
+}
+p {
+  font-size: 12px;
+  font-weight: bold;
+
+}
+.social1{
+  position: absolute;
+  /*top:490px;
+  left:560px;*/
+  top: 60%;
+  left: 42.5%;
+ text-align: center;
+ 
+}
+.bar{
+  position: absolute;
+  top:420px;
+  left:545px;
+}
+
+.caption{
+display: none;
+color:red;    
+position: absolute;
+}
+a:hover .caption { 
+  display: block; 
+  text-align: justify;
+  position: absolute;
+  top: -30px;
+  right: 0;
+  margin-right: -30px;
+  font-family:courier;
+  color: #FFFFFF;
+  background-color: #000000;
+  font-size: 11px;
+}
+
+.social{
+  position: absolute;
+  /*top:590px;
+  left:485px;*/
+  top: 85%;
+  left: 39%;
+  text-align: center;
+}
+
+
+#footer2{
+  font-size: 10px;
+  color: #cbc8c8;
+text-align: center;
+position: absolute;
+top: 94%;
+  left: 44%;
+}
+#footer{
+  font-size: 10px;
+  color: #d6d3d3;
+text-align: center;
+position: absolute;
+top: 96%;
+  left: 44%;
+}
+
+
+
+
+
+
+
